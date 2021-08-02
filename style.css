@@ -4,22 +4,19 @@ orange: #ec5242
 silver: #d3d3d3
 font-family: cocogoose, lato */
 body {
-  font-family: COCOGOOSE, lato, sans-serif;
+  font-family: 'COCOGOOSE', sans-serif;
   color: #272a31;
 }
 
 .header-nav {
-  border: 1px solid red;
   padding: 2vh 0 4vh 2vw;
 }
 
 .header-nav a {
-  border: 1px solid goldenrod;
   color: #272a31;
 }
 
 .header-content {
-  border: 1px solid goldenrod;
   background-image: url(images/backgroundmobile3.jpg);
  /* background-size: auto;
   background-repeat: no-repeat; */
@@ -29,12 +26,12 @@ body {
 
 .header-content p {
   color: #ec5242;
+  font-weight: 400;
 }
 
 .header-content h1 {
   color: #ec5242;
   opacity: 135%;
-  font-weight: 700;
 }
 
 .header-paragraph {
@@ -51,13 +48,12 @@ body {
 /* here is the program section */
 .program {
   background-color: rgb(54, 54, 54);
-  border: 1px solid goldenrod;
   color: #fff;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 2.5vh;
-  padding: 3vh 2vw 5vh 2vw;
+  padding: 3vh 2vw 8vh 2vw;
 }
 
 .program-h2,
@@ -87,7 +83,6 @@ body {
 }
 
 .lecture-left {
-  border: 1px solid goldenrod;
   display: flex;
   width: 70%;
   align-items: baseline;
@@ -104,7 +99,6 @@ body {
 
 .lecture-right {
   display: flex;
-  border: 1px solid red;
 }
 
 .lecture-right p {
@@ -114,11 +108,12 @@ body {
 .program-button {
   display: flex;
   justify-content: center;
+  padding-top: 6vh;
 }
 
 .button-program {
   width: 70%;
-  height: 10vh;
+  height: 14vh;
   color: white;
   background-color: #ec5242;
   font-size: large;
@@ -152,6 +147,7 @@ body {
 .alibaba {
   width: 90px;
   height: 90px;
+  color: silver;
 }
 
 /* here is the footer section */
@@ -167,6 +163,7 @@ body {
 .footer img {
   width: 15vw;
   height: 15vh;
+  background: white;
 }
 
 .footer-p {
