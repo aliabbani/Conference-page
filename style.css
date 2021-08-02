@@ -8,6 +8,10 @@ body {
   color: #272a31;
 }
 
+.flex {
+  display: flex;
+}
+
 .header-nav {
   padding: 2vh 0 4vh 2vw;
 }
@@ -49,7 +53,6 @@ body {
 
 /* here is the program section */
 .program {
-  background-color: rgb(54, 54, 54);
   background-image: url(images/programbackground.png);
   color: #fff;
   display: grid;
@@ -190,36 +193,6 @@ body {
 /* ***********************************************************************************************************/
 
 /* here about us section */
-.about-us {
-  border: 1px solid red;
-  display: flex;
-  flex-direction: column;
-}
-
-.about-us-2 {
-  border: 1px solid green;
-  padding: 2vh 3vw;
-}
-
-/* here is the past activities section */
-.about-past-activities {
-  display: flex;
-  flex-direction: column;
-  gap: 5vh;
-  border: 1px solid goldenrod;
-  padding: 5vh 5vw;
-}
-
-.about-past-activities-section {
-  display: flex;
-  background-image: url(images/backgroundmobile2.jpg);
-}
-
-.about-past-activities-section-2 {
-  display: flex;
-  background-image: url(images/backgroundmobile2.jpg);
-}
-
 .headear-about-contact {
   display: flex;
   flex-direction: column;
@@ -234,4 +207,48 @@ body {
 
 .header-paragraph-about {
   background-color: white;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #272a31;
+}
+
+.about-us-2 {
+  padding: 2vh 3vw;
+}
+
+/* here is the past activities section */
+.past-activities {
+  flex-direction: column;
+  justify-content: center;
+  gap: 5vh;
+  padding: 5vh 5vw;
+}
+
+.past-activities p {
+  text-align: center;
+}
+
+.past-activities-section {
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+  background: #ec5242;
+  background-image: url(images/pastactivity1.png);
+}
+
+.past-activities-section-2 {
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/pastactivity2.png);
+  height: 35vh;
+}
+
+.past-activities-desc {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
 }
