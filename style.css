@@ -20,12 +20,11 @@ body {
 
 .header-content {
   border: 1px solid goldenrod;
-  background-image: url(images/backgroundmobile1.jpg);
+  background-image: url(images/backgroundmobile3.jpg);
  /* background-size: auto;
   background-repeat: no-repeat; */
   background-color: rgb(240, 240, 240);
   padding: 1vh 4vw 9vh 4vw;
-
 }
 
 .header-content p {
@@ -41,6 +40,7 @@ body {
 .header-paragraph {
   border: 3px solid white;
   padding: 2vh 2vw;
+  line-height: 170%;
 }
 
 .header-content h2 {
@@ -174,3 +174,33 @@ body {
 }
 
 /* ***********************************************************************************************************/
+/* here about us section */
+.about-us {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us-2 {
+  border: 1px solid green;
+  padding: 2vh 3vw;
+}
+
+/* here is the past activities section */
+.about-past-activities {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  border: 1px solid goldenrod;
+  padding: 5vh 5vw;
+}
+
+.about-past-activities-section {
+  display: flex;
+  background-image: url(images/backgroundmobile2.jpg);
+}
+
+.about-past-activities-section-2 {
+  display: flex;
+  background-image: url(images/backgroundmobile2.jpg);
+}
