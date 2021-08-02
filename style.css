@@ -130,6 +130,12 @@ body {
   font-size: large;
 }
 
+/* here is the feature speaking section */
+.feature-speaking-button {
+  width: 100%;
+  height: 7vh;
+  background-color: white;
+}
 /* here is the partners section */
 
 .partners {
