@@ -56,13 +56,15 @@ body {
   padding: 3vh 2vw 5vh 2vw;
 }
 
-.program-h2 {
+.program-h2,
+.partners-h2 {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.program-h2 h2 {
+.program-h2 h2,
+.partners-h2 h2 {
   align-self: center;
 }
 
@@ -88,7 +90,7 @@ body {
 }
 
 .lecture-left i {
-  padding: 0 3vw;
+  padding: 0 2vw;
 }
 
 .lecture-left h3 {
@@ -118,8 +120,36 @@ body {
   font-size: large;
 }
 
+/* here is the partners section */
+
+.partners {
+  background-color: #272a31;
+  color: #fff;
+  padding: 2vh 1vw 8vh 1vw;
+}
+
+.partners-images {
+  display: flex;
+  flex-direction: column;
+  gap: 8vh;
+}
+
+.partners-images-1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.partners-images-2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.alibaba {
+  width: 90px;
+  height: 90px;
+}
 /* ***********************************************************************************************************/
-.alibaba,
+
 .logo-footer {
   width: 5%;
 }
