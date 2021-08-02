@@ -137,6 +137,7 @@ body {
 .partners-images-1 {
   display: flex;
   justify-content: space-around;
+  padding-top: 7vh;
 }
 
 .partners-images-2 {
@@ -148,8 +149,24 @@ body {
   width: 90px;
   height: 90px;
 }
-/* ***********************************************************************************************************/
 
-.logo-footer {
-  width: 5%;
+/* here is the footer section */
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 8vh 8vw;
+  font-size: 1rem;
+  color: #272a31;
+  line-height: 140%;
 }
+
+.footer img {
+  width: 15vw;
+  height: 15vh;
+}
+
+.footer-p {
+  padding-left: 6vw;
+}
+
+/* ***********************************************************************************************************/
