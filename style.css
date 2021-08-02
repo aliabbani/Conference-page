@@ -4,7 +4,7 @@ orange: #ec5242
 silver: #d3d3d3
 font-family: cocogoose, lato */
 body {
-  font-family: 'COCOGOOSE', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #272a31;
 }
 
@@ -33,6 +33,7 @@ body {
 .header-content h1 {
   color: #ec5242;
   opacity: 135%;
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 .header-paragraph {
@@ -77,10 +78,17 @@ body {
   width: 15%;
 }
 
+.teste {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .lecture {
   background: #272a31;
   display: flex;
   align-items: center;
+  justify-content: space-around;
   height: auto;
   opacity: 0.7;
 }
