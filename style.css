@@ -48,6 +48,7 @@ body {
 /* here is the program section */
 .program {
   background-color: rgb(54, 54, 54);
+  background-image: url(images/programbackground.png);
   color: #fff;
   display: grid;
   grid-template-columns: 1fr;
@@ -76,10 +77,11 @@ body {
 }
 
 .lecture {
-  background-color: rgb(168, 168, 168);
+  background: #272a31;
   display: flex;
   align-items: center;
   height: auto;
+  opacity: 0.7;
 }
 
 .lecture-left {
@@ -163,7 +165,7 @@ body {
 .footer img {
   width: 15vw;
   height: 15vh;
-  background: white;
+  background-color: white;
 }
 
 .footer-p {
