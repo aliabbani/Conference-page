@@ -1,0 +1,125 @@
+/*
+black: #272a31
+orange: #ec5242
+silver: #d3d3d3
+font-family: cocogoose, lato */
+body {
+  font-family: COCOGOOSE, lato, sans-serif;
+  color: #272a31;
+}
+
+.header-nav {
+  border: 1px solid red;
+  padding: 2vh 0 4vh 2vw;
+}
+
+.header-nav a {
+  border: 1px solid goldenrod;
+  color: #272a31;
+}
+
+.header-content {
+  border: 1px solid goldenrod;
+  background-color: rgb(240, 240, 240);
+  padding: 1vh 4vw 9vh 4vw;
+}
+
+.header-content p {
+  color: #ec5242;
+}
+
+.header-content h1 {
+  color: #ec5242;
+  opacity: 135%;
+  font-weight: 700;
+}
+
+.header-paragraph {
+  border: 3px solid white;
+  padding: 2vh 2vw;
+}
+
+.header-content h2 {
+  color: #3b3f47;
+  font-weight: 800;
+}
+
+/* here is the program section */
+.program {
+  background-color: rgb(54, 54, 54);
+  border: 1px solid goldenrod;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 2.5vh;
+  padding: 3vh 2vw 5vh 2vw;
+}
+
+.program-h2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.program-h2 h2 {
+  align-self: center;
+}
+
+.horizontal-hr {
+  border-width: 0;
+  height: 2px;
+  background-color: #ec5242;
+  width: 15%;
+}
+
+.lecture {
+  background-color: rgb(168, 168, 168);
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+
+.lecture-left {
+  border: 1px solid goldenrod;
+  display: flex;
+  width: 70%;
+  align-items: baseline;
+}
+
+.lecture-left i {
+  padding: 0 3vw;
+}
+
+.lecture-left h3 {
+  color: #ec5242;
+  font-size: 1rem;
+}
+
+.lecture-right {
+  display: flex;
+  border: 1px solid red;
+}
+
+.lecture-right p {
+  padding: 0 1vw;
+}
+
+.program-button {
+  display: flex;
+  justify-content: center;
+}
+
+.button-program {
+  width: 70%;
+  height: 10vh;
+  color: white;
+  background-color: #ec5242;
+  font-size: large;
+}
+
+/* ***********************************************************************************************************/
+.alibaba,
+.logo-footer {
+  width: 5%;
+}
