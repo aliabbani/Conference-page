@@ -17,8 +17,9 @@ body {
 }
 
 .header-content {
-  background-image: url(images/backgroundmobile3.jpg);
- /* background-size: auto;
+  background-image: url(images/LadogaBottom.png);
+
+  /* background-size: auto;
   background-repeat: no-repeat; */
   background-color: rgb(240, 240, 240);
   padding: 1vh 4vw 9vh 4vw;
@@ -173,6 +174,7 @@ body {
 }
 
 /* ***********************************************************************************************************/
+
 /* here about us section */
 .about-us {
   border: 1px solid red;
@@ -202,4 +204,20 @@ body {
 .about-past-activities-section-2 {
   display: flex;
   background-image: url(images/backgroundmobile2.jpg);
+}
+
+.headear-about-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 5vh;
+  line-height: 160%;
+}
+
+.headear-about-contact span {
+  text-align: center;
+}
+
+.header-paragraph-about {
+  background-color: white;
 }
