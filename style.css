@@ -20,8 +20,12 @@ body {
 
 .header-content {
   border: 1px solid goldenrod;
+  background-image: url(images/backgroundmobile1.jpg);
+ /* background-size: auto;
+  background-repeat: no-repeat; */
   background-color: rgb(240, 240, 240);
   padding: 1vh 4vw 9vh 4vw;
+
 }
 
 .header-content p {
