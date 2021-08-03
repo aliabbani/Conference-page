@@ -72,14 +72,16 @@ body {
 }
 
 .program-h2,
-.partners-h2 {
+.partners-h2,
+.about-us-h2 {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
 .program-h2 h2,
-.partners-h2 h2 {
+.partners-h2 h2,
+.about-us-h2 {
   align-self: center;
 }
 
@@ -289,15 +291,26 @@ body {
   text-align: center;
 }
 
-/* as */
+/* About-us Section Mobile AboutUs */
 .about-us {
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid #272a31;
 }
 
+.about-us-image {
+  display: flex;
+}
+
+.about-us-image img {
+  width: 100%;
+}
+
 .about-us-2 {
+  display: flex;
+  flex-direction: column;
   padding: 2vh 3vw;
+  text-align: center;
 }
 
 /* Past Activities Section Mobile */
@@ -477,5 +490,19 @@ body {
 
   .headear-about-contact {
     gap: 3vh;
+  }
+  /* About-us Section Desktop AboutUs */
+.about-us {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #272a31;
+    padding: 5vh 5vw;
+  }
+  
+  .about-us-2 {
+    padding: 2vh 3vw;
+  }
+  .about-us-h2 {
+      padding-bottom: 5vh;
   }
 }
