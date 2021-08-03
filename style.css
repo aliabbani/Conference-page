@@ -12,6 +12,11 @@ body {
   display: flex;
 }
 
+.header-first-line,
+.header-second-line {
+  display: none;
+}
+
 .header-nav {
   padding: 2vh 0 4vh 2vw;
 }
@@ -54,12 +59,12 @@ body {
 /* here is the program section */
 .program {
   background-image: url(images/programbackground.png);
-  color: #fff;
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; */
   gap: 2.5vh;
   padding: 3vh 2vw 8vh 2vw;
+  color: #d3d3d3;
 }
 
 .program-h2,
@@ -81,12 +86,7 @@ body {
   width: 15%;
 }
 
-.teste {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
+/*
 .lecture {
   background: #272a31;
   display: flex;
@@ -117,6 +117,31 @@ body {
 
 .lecture-right p {
   padding: 0 1vw;
+}
+*/
+.lecture {
+  display: grid;
+  grid-template-columns: 20% 20% auto;
+  grid-template-rows: 1fr;
+  grid-gap: 4vh;
+  column-gap: 4vh;
+  align-items: center;
+  border: 1px solid red;
+  color: #d3d3d3;
+  background: #272a31;
+  opacity: 0.7;
+}
+
+.lecture-left {
+  padding-left: 5vw;
+}
+
+.program-title {
+  color: #ec5242;
+}
+
+.lecture-right {
+  padding-right: 5vw;
 }
 
 .program-button {
@@ -235,8 +260,9 @@ body {
   justify-content: center;
   align-items: center;
   height: 35vh;
-  background: #ec5242;
-  background-image: url(images/pastactivity1.png);
+  background-image: url(images/pastactivity1.png) !important;
+  /*background: #ec5242;
+  opacity: 0.5; */
 }
 
 .past-activities-section-2 {
@@ -251,4 +277,63 @@ body {
   flex-direction: column;
   text-align: center;
   color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .burger-menu {
+    display: none;
+  }
+
+  .header-nav {
+    padding: 0;
+  }
+
+  .header-first-line {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #272a31;
+    padding-right: 5vw;
+  }
+
+  .header-list1 {
+    list-style: none;
+    display: flex;
+  }
+
+  .header-list1 li a {
+    text-decoration: none;
+    color: #d3d3d3;
+    padding-left: 3vw;
+  }
+
+  .header-second-line {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh 5vw 1vh 3vw;
+  }
+
+  .header-logo {
+    display: flex;
+  }
+
+  .header-logo-a {
+    display: flex;
+    text-decoration: none;
+  }
+
+  .logo-header {
+    width: 10vw;
+    height: 12vh;
+  }
+
+  .header-list2 {
+    list-style: none;
+    display: flex;
+  }
+
+  .header-list2 li a {
+    text-decoration: none;
+    color: #272a31;
+    padding-left: 3vw;
+  }
 }
