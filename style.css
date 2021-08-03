@@ -243,6 +243,38 @@ body {
 /* ***********************************************************************************************************/
 
 /* AboutUs Section Mobile */
+.header-content-about {
+  background-image: url(images/LadogaBottom.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3vh 3vw;
+}
+
+.header-content-about h5 {
+  color: #ec5242;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.header-content-about h1 {
+  color: #ec5242;
+  font-family: 'COCOGOOSE', sans-serif;
+  align-self: center;
+  font-size: 25px;
+  text-align: center;
+}
+
+.header-paragraph-about {
+  display: flex;
+  background-color: white;
+  border: 1px solid #d3d3d3;
+  padding: 0.1vh 2vw;
+  text-align: center;
+  line-height: 140%;
+}
+
 .headear-about-contact {
   display: flex;
   flex-direction: column;
@@ -255,10 +287,7 @@ body {
   text-align: center;
 }
 
-.header-paragraph-about {
-  background-color: white;
-}
-
+/* as*/
 .about-us {
   display: flex;
   flex-direction: column;
@@ -426,4 +455,5 @@ body {
   }
 
   /* AboutUs Page Desktop */
+
 }
