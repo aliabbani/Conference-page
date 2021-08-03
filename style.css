@@ -315,6 +315,7 @@ body {
 
 /* Past Activities Section Mobile */
 .past-activities {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 5vh;
@@ -323,6 +324,12 @@ body {
 
 .past-activities p {
   text-align: center;
+}
+
+.past-activities-section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
 }
 
 .past-activities-section {
@@ -491,18 +498,43 @@ body {
   .headear-about-contact {
     gap: 3vh;
   }
+
   /* About-us Section Desktop AboutUs */
-.about-us {
+  .about-us {
     display: flex;
     flex-direction: column;
     border-bottom: 1px solid #272a31;
     padding: 5vh 5vw;
   }
-  
+
   .about-us-2 {
     padding: 2vh 3vw;
   }
+
   .about-us-h2 {
-      padding-bottom: 5vh;
+    padding-bottom: 5vh;
   }
+
+  /* Past Activities Section About Desktop */
+  .past-activities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5vh;
+    padding: 10vh 5vw 20vh 5vw;
+  }
+  .past-activities-section-container {
+    flex-direction: row;
+    justify-content: center;
+    gap: 5vw;
+  }
+
+  .past-activities-section {
+    width: 35vw;
+  }
+
+  .past-activities-section-2 {
+    width: 35vw;
+  }
+
 }
