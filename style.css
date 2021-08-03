@@ -197,24 +197,37 @@ body {
   color: silver;
 }
 
-/* here is the footer section */
+/* Footer Section Mobile */
 .footer {
   display: flex;
   justify-content: space-evenly;
-  padding: 8vh 8vw;
-  font-size: 1rem;
+  padding: 8vh 4vw;
+  font-size: 1em;
   color: #272a31;
   line-height: 140%;
 }
 
-.footer img {
+.logo-footer {
   width: 15vw;
   height: 15vh;
-  background-color: white;
+}
+
+.footer-logo {
+  display: flex;
+}
+
+.footer-logo-a {
+  display: flex;
+  text-decoration: none;
+  color: #4a77e0;
 }
 
 .footer-p {
   padding-left: 6vw;
+}
+
+.desktop-p {
+  display: none;
 }
 
 /* ***********************************************************************************************************/
@@ -322,6 +335,7 @@ body {
   .header-logo-a {
     display: flex;
     text-decoration: none;
+    color: #4a77e0;
   }
 
   .logo-header {
@@ -364,5 +378,38 @@ body {
   .header-content span {
     font-size: 20px;
     font-weight: normal;
+  }
+
+  /* Partners section */
+  .partners-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.0000000001vh;
+    padding-top: 5vh;
+  }
+
+  .partners-images-1 {
+    padding-top: 0;
+  }
+
+  .alibaba {
+    padding-left: 5vw;
+  }
+
+  /* Footer section Desktop */
+  .footer {
+    display: flex;
+    justify-content: center;
+    padding: 8vh 10vw 8vh 10vw;
+    font-size: 1em;
+  }
+
+  .footer-p {
+    padding-left: 6vw;
+  }
+
+  .desktop-p {
+    display: flex;
   }
 }
