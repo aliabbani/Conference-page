@@ -30,7 +30,6 @@ body {
 
   /* background-size: auto;
   background-repeat: no-repeat; */
-  background-color: rgb(240, 240, 240);
   padding: 1vh 4vw 9vh 4vw;
 }
 
@@ -49,11 +48,14 @@ body {
   border: 3px solid white;
   padding: 2vh 2vw;
   line-height: 170%;
+  background: #d3d3d3;
 }
 
 .header-content h2 {
   color: #3b3f47;
-  font-weight: 800;
+  font-size: 1.2rem;
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: bold;
 }
 
 /* here is the program section */
@@ -284,6 +286,7 @@ body {
     display: none;
   }
 
+  /* header nav bar 1 & 2 */
   .header-nav {
     padding: 0;
   }
@@ -335,5 +338,31 @@ body {
     text-decoration: none;
     color: #272a31;
     padding-left: 3vw;
+  }
+
+  /* header content */
+  .header-content {
+    padding: 12vh 40vw 12vh 8vw;
+  }
+
+  .header-content p {
+    font-size: 35px;
+    line-height: 22px;
+  }
+
+  .header-content h1 {
+    font-size: 45px;
+    line-height: 52px;
+  }
+
+  .header-content h2 {
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: normal;
+  }
+
+  .header-content span {
+    font-size: 20px;
+    font-weight: normal;
   }
 }
