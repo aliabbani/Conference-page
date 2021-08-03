@@ -313,6 +313,10 @@ body {
   text-align: center;
 }
 
+.about-quest {
+  color: #ec5242;
+}
+
 /* Past Activities Section Mobile */
 .past-activities {
   display: flex;
@@ -523,6 +527,7 @@ body {
     gap: 5vh;
     padding: 10vh 5vw 20vh 5vw;
   }
+
   .past-activities-section-container {
     flex-direction: row;
     justify-content: center;
@@ -536,5 +541,4 @@ body {
   .past-activities-section-2 {
     width: 35vw;
   }
-
 }
