@@ -14,7 +14,8 @@ body {
 
 /* Header Section Mobile */
 .header-first-line,
-.header-second-line {
+.header-second-line,
+.program-desktop {
   display: none;
 }
 
@@ -304,6 +305,7 @@ body {
 
 .about-us-image img {
   width: 100%;
+  height: auto;
 }
 
 .about-us-2 {
@@ -392,6 +394,7 @@ body {
   .header-second-line {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1vh 5vw 1vh 3vw;
   }
 
@@ -402,6 +405,9 @@ body {
   .header-logo-a {
     display: flex;
     text-decoration: none;
+  }
+
+  .header-logo-a h2 {
     color: #4a77e0;
   }
 
@@ -445,6 +451,65 @@ body {
   .header-content span {
     font-size: 20px;
     font-weight: normal;
+  }
+
+  /* Program Section Desktop */
+  .program {
+    gap: 2.5vh;
+    padding: 8vh 10vw 18vh 10vw;
+    color: #d3d3d3;
+  }
+
+  .program-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1.5vw;
+  }
+
+  .lecture {
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% 20% auto;
+    row-gap: 0.1vw;
+    padding-top: 2vh;
+  }
+
+  .lecture-left {
+    padding-left: 0;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .program-title {
+    color: #ec5242;
+    justify-self: center;
+    align-self: center;
+  }
+  
+  .lecture-right {
+    padding: 0;
+    font-size: 15px;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .lecture-right p {
+    text-align: center;
+    padding: 0 0.9vw 0 0.9vw;
+    margin: 0;
+  }
+
+  .program-button {
+    display: none;
+  }
+
+  .program-desktop {
+    display: flex;
+    justify-content: center;
+    padding-top: 8vh;
+  }
+
+  .program-desktop-a {
+    color: #d3d3d3;
   }
 
   /* Partners section Desktop */
