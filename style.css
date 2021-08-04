@@ -214,13 +214,13 @@ body {
 }
 
 /* Speaking Section Mobile */
-.speakers-container {
+.speak-container {
   display: flex;
   align-content: flex-start;
   align-items: flex-start;
 }
 
-.speakers-images {
+.speak-images {
   position: relative;
   top: 0;
   left: 0;
@@ -247,18 +247,18 @@ body {
   border: 1px green solid;
 }
 
-.speakers-info {
+.speak-info {
   display: flex;
   flex-direction: column;
   align-content: flex-start;
 }
 
-.info-text {
+.info-title {
   color: #ec5242;
   font-style: italic;
 }
 
-.horizontal-speakers {
+.horizontal-speak {
   width: 10%;
   align-self: flex-start;
 }
