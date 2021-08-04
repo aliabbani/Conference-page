@@ -115,7 +115,8 @@ body {
 
 .program-h2,
 .partners-h2,
-.about-us-h2 {
+.about-us-h2,
+.speak-h2 {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -123,7 +124,8 @@ body {
 
 .program-h2 h2,
 .partners-h2 h2,
-.about-us-h2 {
+.about-us-h2,
+.speak-h2 {
   align-self: center;
 }
 
@@ -214,16 +216,20 @@ body {
   font-size: large;
 }
 
-/* Speaking Section Mobile */
+/* Speakers Section Mobile */
 .speak {
   padding-bottom: 5vh;
+}
+
+.speak-h2 h2 {
+  text-align: center;
 }
 
 .cards-container {
   display: flex;
   padding-top: 5vh;
 }
-  
+
 .container {
   display: flex;
   align-items: center;
@@ -607,6 +613,27 @@ body {
 
   .program-desktop-a {
     color: #d3d3d3;
+  }
+
+  /* Speakers Section Mobile */
+  .speak {
+    padding-bottom: 20vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+
+  .speakers {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .cards-container {
+    flex-grow: 1;
+    flex-basis: 50%;
+  }
+
+  .speak-button {
+    display: none;
   }
 
   /* Partners section Desktop */
