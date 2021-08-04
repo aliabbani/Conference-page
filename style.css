@@ -350,7 +350,7 @@ body {
 
 /* Header Content Mobile AboutUs */
 .header-content-about {
-  background-image: url(images/LadogaBottom.png);
+  background-image: url(images/mainbackground.png);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -507,6 +507,7 @@ body {
     display: flex;
     align-items: center;
     text-decoration: none;
+    padding-left: 5vw;
   }
 
   .header-logo-a h2 {
@@ -531,7 +532,7 @@ body {
 
   /* header content Desktop */
   .header-content {
-    padding: 12vh 40vw 12vh 8vw;
+    padding: 12vh 20vw 12vh 20vw;
   }
 
   .header-content p {

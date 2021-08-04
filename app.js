@@ -3,7 +3,7 @@ let speakers = [
     name: 'Ali Abbani',
     professional: 'Microverse Student since July 2021',
     desctiption: 'Microverse Student since July 2021',
-    photo: 'images/MarkZuk.png',
+    photo: 'images/AliAbbani.png',
   },
   {
     name: 'Mark Zuckerberg',
@@ -16,25 +16,25 @@ let speakers = [
     name: 'Jack Dorsey',
     professional: 'CEO of Twitter Inc.',
     desctiption: 'Jack Patrick Dorsey is an American billionaire technology entrepreneur and philanthropist',
-    photo: 'images/MarkZuk.png',
+    photo: 'images/JackDorsey.png',
   },
   {
     name: 'Pierre Omidyar',
     professional: 'Chairman of eBay',
     desctiption: 'Pierre Morad Omidyar is a French-American billionaire technology entrepreneur, software engineer',
-    photo: 'images/MarkZuk.png',
+    photo: 'images/PierreOmidyar.png',
   },
   {
     name: 'Andy Jassy',
     professional: 'CEO of Amazon',
     desctiption: 'Andrew R. Jassy is an American businessman who has been the president and CEO of Amazon since July 5, 2021.',
-    photo: 'images/MarkZuk.png',
+    photo: 'images/AndyJassy.png',
   },
   {
     name: 'Sundar Pichai',
     professional: 'Chief Executive Officer of Google',
     desctiption: 'Pichai Sundararajan, better known as Sundar Pichai, is an Indian-American business executive. He is the chief executive officer of Alphabet Inc. and its subsidiary Google. Born in Madras, India, Pichai earned his degree from IIT Kharagpur in metallurgical engineering.',
-    photo: 'images/MarkZuk.png',
+    photo: 'images/SundarPichai.png',
   },
 ];
 
