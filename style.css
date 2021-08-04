@@ -272,7 +272,16 @@ body {
 .footer-logo-a {
   display: flex;
   text-decoration: none;
+  align-items: center;
   color: #4a77e0;
+}
+
+.footer-logo-a h2 {
+  color: #272a31;
+}
+
+.fa-confluence {
+  color: #ec5242;
 }
 
 .footer-p {
@@ -444,11 +453,12 @@ body {
 
   .header-logo-a {
     display: flex;
+    align-items: center;
     text-decoration: none;
   }
 
   .header-logo-a h2 {
-    color: #4a77e0;
+    color: #272a31;
   }
 
   .logo-header {
