@@ -1,4 +1,4 @@
-let speakers = [
+const speakers = [
   {
     name: 'Ali Abbani',
     professional: 'Microverse Student since July 2021',
@@ -39,16 +39,16 @@ let speakers = [
 ];
 
 for (let i = 0; i < speakers.length; i++) {
-  let cardsContainer = document.createElement('div');
-  let container = document.createElement('div');
-  let cardsImage = document.createElement('div');
-  let chess = document.createElement('img');
-  let photo = document.createElement('img');
-  let cardsInformation = document.createElement('div');
-  let cardsBody = document.createElement('div');
-  let fullName = document.createElement('h3');
-  let title = document.createElement('h5');
-  let description = document.createElement('small');
+  const cardsContainer = document.createElement('div');
+  const container = document.createElement('div');
+  const cardsImage = document.createElement('div');
+  const chess = document.createElement('img');
+  const photo = document.createElement('img');
+  const cardsInformation = document.createElement('div');
+  const cardsBody = document.createElement('div');
+  const fullName = document.createElement('h3');
+  const title = document.createElement('h5');
+  const description = document.createElement('small');
 
   cardsContainer.appendChild(container);
   container.appendChild(cardsImage);
@@ -59,7 +59,6 @@ for (let i = 0; i < speakers.length; i++) {
   cardsBody.appendChild(fullName);
   cardsBody.appendChild(title);
   cardsBody.appendChild(description);
-
 
   cardsContainer.className = 'cards-container';
   container.className = 'container';
@@ -74,7 +73,7 @@ for (let i = 0; i < speakers.length; i++) {
 
   document.querySelector('.speakers').appendChild(cardsContainer);
   photo.src = speakers[i].photo;
-//   chess.src = './images/chess.png';
+  // chess.src = './images/chess.png';
   fullName.innerText = speakers[i].name;
   title.innerText = speakers[i].professional;
   description.innerText = speakers[i].desctiption;

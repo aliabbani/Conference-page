@@ -11,6 +11,7 @@ body {
 .flex {
   display: flex;
 }
+
 /*********** trial */
 
 /* Mobile Menu */
@@ -62,10 +63,6 @@ body {
 
 .header-nav {
   padding: 2vh 0 4vh 2vw;
-}
-
-.header-nav a {
-  color: #272a31;
 }
 
 .header-content {
@@ -272,6 +269,7 @@ body {
   height: 7vh;
   background-color: white;
 }
+
 /* Partners Section Mobile */
 .partners {
   background-color: #272a31;
@@ -527,7 +525,20 @@ body {
   .header-list2 li a {
     text-decoration: none;
     color: #272a31;
+    padding-right: 3vw;
+  }
+
+  .header-list2 li a:hover {
+    color: #ec5242;
+  }
+
+  .header-list-conference {
+    border: 5px solid #ec5242;
+    text-align: center;
     padding-left: 3vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    color: #ec5242 !important;
   }
 
   /* header content Desktop */
