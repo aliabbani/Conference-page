@@ -15,7 +15,18 @@
   <body>
       <header>
           <nav class="header-nav">
-            <a href="/"><i class="fas fa-bars hamburger-icon menu fa-3x burger-menu"></i></a>
+            <i id="menu" class="fas fa-bars hamburger-icon fa-3x burger-menu menu"></i>
+            <div class="mobile-menu">
+              <i class="fas fa-window-close close-item"></i>              
+              <div class="menu-div">
+                <a href="#about" class="about-menu">About</a>
+                <a href="#program" class="porgram-menu">Program</a>
+                <a href="#speakers" class="speakers-menu">Speakers</a>
+                <a href="#partners" class="partners-menu">Partners</a>
+                <a href="#footer" class="contact-menu">Contact</a>
+                <a href="/" class="conference-menu">Conference</a>
+              </div>
+            </div>
             <div class="header-first-line">
               <ul class="header-list1">
                 <li><a href="/"><i class="fab fa-facebook-f"></i></a></li>
@@ -32,14 +43,14 @@
                   <h2>Conference</h2>
                 </a>
               </div>
-              <ul class="header-list2">
-                <li><a href="/">About</a></li>
-                <li><a href="/">Program</a></li>
-                <li><a href="/">Join</a></li>
-                <li><a href="/">Sponsor</a></li>
-                <li><a href="/">News</a></li>
-                <li><a href="/">Partners</a></li>
-              </ul> 
+                <ul class="header-list2">
+                  <li><a href="/">About</a></li>
+                  <li><a href="#program" >Program</a></li>
+                  <li><a href="#speakers" >Speakers</a></li>
+                  <li><a href="#partners" >Partners</a></li>
+                  <li><a href="#footer" >Contact</a></li>
+                  <li><a href="/" >Conference</a></li>
+                </ul> 
             </div>
           </nav>
           <div class="header-content">
@@ -53,7 +64,7 @@
           </div>
       </header>
       <main>
-          <section class="program">
+          <section class="program" id="program">
               <div class="program-h2">
                 <h2>Main Program</h2>
                 <hr class="horizontal-hr">
@@ -123,7 +134,7 @@
               <a href="/" class="program-desktop-a">SEE THE WHOLE PROGRAM</a>
             </div>
           </section>
-          <section class="speakers">
+          <section class="speakers" id="speakers">
             <div class="partners-h2">
               <h2>Featured Speakers</h2>
               <hr class="horizontal-hr">
@@ -144,7 +155,7 @@
             </div>
             <button type="button" class="feature-speaking-button">MORE<i class="fa fa-angle-down"></i></button>
           </section>
-          <article class="partners">
+          <article class="partners" id="partners">
               <div class="partners-h2">
                 <h2>Partners</h2>
                 <hr class="horizontal-hr">
@@ -162,7 +173,7 @@
               </div>
           </article>
       </main>
-      <footer class="footer">
+      <footer class="footer" id="footer">
         <div class="footer-logo">
           <a class="footer-logo-a" href="#">
             <img src="images/logo2.png" alt=""  class="logo-footer">
@@ -174,4 +185,6 @@
               <p class="desktop-p">贝克汉姆 贝克汉姆 贝克汉姆 贝克汉姆 贝克汉姆 贝克汉姆 贝克汉姆 贝克汉姆 贝克汉姆 贝克汉姆 贝克汉姆 贝克汉姆 贝克汉姆 贝克汉姆</p>
           </div>
       </footer>
+      <script src="index.js"></script>
+
   </body>

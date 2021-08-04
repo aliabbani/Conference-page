@@ -12,9 +12,49 @@ body {
   display: flex;
 }
 
+/* Mobile Menu */
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  background: #272a31;
+  opacity: 95%;
+  width: 98vw;
+  height: 86.8vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.menu-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-menu div a {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 7vh;
+  color: #ec5242;
+  text-decoration: none;
+  padding: 3vh;
+  margin: 0;
+}
+
+.menu-div a:hover {
+  text-decoration: underline;
+}
+
+.close-item {
+  color: white;
+  align-self: flex-end;
+  padding-top: 3vh;
+  padding-right: 4vw;
+}
+
 /* Header Section Mobile */
 .header-first-line,
 .header-second-line,
+.header-logo,
 .program-desktop {
   display: none;
 }
@@ -484,7 +524,7 @@ body {
     justify-self: center;
     align-self: center;
   }
-  
+
   .lecture-right {
     padding: 0;
     font-size: 15px;
