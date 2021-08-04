@@ -69,7 +69,7 @@ body {
 }
 
 .header-content {
-  background-image: url(images/LadogaBottom.png);
+  background-image: url(images/mainbackground.png);
 
   /* background-size: auto;
   background-repeat: no-repeat; */
@@ -83,7 +83,6 @@ body {
 
 .header-content h1 {
   color: #ec5242;
-  opacity: 135%;
   font-family: 'COCOGOOSE', sans-serif;
 }
 
