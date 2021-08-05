@@ -10,6 +10,7 @@ A responsive design
 ## Built With
 - HTML
 - CSS
+- JavaScript
 - Coffee
  
 ## Live Demo
