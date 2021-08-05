@@ -13,7 +13,7 @@ A responsive design
 - Coffee
  
 ## Live Demo
-[Live Demo Link] (https://aliabbani.github.io/Conference-page/)
+[Live Demo Link](https://aliabbani.github.io/Conference-page/)
  
 
 ## Authors
