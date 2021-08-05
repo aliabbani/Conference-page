@@ -12,8 +12,6 @@ body {
   display: flex;
 }
 
-/*********** trial */
-
 /* Mobile Menu */
 .mobile-menu {
   display: none;
@@ -67,9 +65,6 @@ body {
 
 .header-content {
   background-image: url(images/mainbackground.png);
-
-  /* background-size: auto;
-  background-repeat: no-repeat; */
   padding: 1vh 4vw 9vh 4vw;
 }
 
@@ -100,10 +95,6 @@ body {
 /* Program Section Mobile */
 .program {
   background-image: url(images/programbackground.png);
-
-  /* display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; */
   gap: 2.5vh;
   padding: 3vh 2vw 8vh 2vw;
   color: #d3d3d3;
@@ -131,40 +122,6 @@ body {
   background-color: #ec5242;
   width: 15%;
 }
-
-/*
-.lecture {
-  background: #272a31;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  height: auto;
-  opacity: 0.7;
-}
-
-.lecture-left {
-  display: flex;
-  width: 70%;
-  align-items: baseline;
-}
-
-.lecture-left i {
-  padding: 0 2vw;
-}
-
-.lecture-left h3 {
-  color: #ec5242;
-  font-size: 1rem;
-}
-
-.lecture-right {
-  display: flex;
-}
-
-.lecture-right p {
-  padding: 0 1vw;
-}
-*/
 
 .program-container {
   display: grid;
@@ -418,7 +375,7 @@ body {
   color: #ec5242;
 }
 
-/* Past Activities Section Mobile */
+/* Past Activities Section Mobile AboutUs */
 .past-activities {
   display: flex;
   flex-direction: column;
@@ -441,10 +398,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 35vh;
-  background-image: url(images/pastactivity1.png) !important;
-
-  /* background: #ec5242;
-  opacity: 0.5; */
+  background-image: url(images/pastactivity1.png);
 }
 
 .past-activities-section-2 {
@@ -626,7 +580,7 @@ body {
     color: #d3d3d3;
   }
 
-  /* Speakers Section Mobile */
+  /* Speakers Section Desktop */
   .speak {
     padding-bottom: 20vh;
     padding-left: 10vw;

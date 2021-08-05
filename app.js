@@ -74,7 +74,6 @@ for (let i = 0; i < speakers.length; i++) {
 
   document.querySelector('.speakers').appendChild(cardsContainer);
   photo.src = speakers[i].photo;
-  // chess.src = './images/chess.png';
   fullName.innerText = speakers[i].name;
   title.innerText = speakers[i].professional;
   description.innerText = speakers[i].desctiption;
