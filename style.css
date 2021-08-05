@@ -418,8 +418,8 @@ body {
 /************* Destop Version *************/
 @media screen and (min-width: 768px) {
   /* Header Section Desktop */
-  .burger-menu {
-    display: none !important;
+  #menu {
+    display: none;
   }
 
   .header-nav {
@@ -492,7 +492,10 @@ body {
     padding-left: 3vw;
     padding-top: 1vh;
     padding-bottom: 1vh;
-    color: #ec5242 !important;
+  }
+
+  #head-list-conf {
+    color: #ec5242;
   }
 
   /* header content Desktop */
