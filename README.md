@@ -15,7 +15,13 @@ A responsive design
  
 ## Live Demo
 [Live Demo Link](https://aliabbani.github.io/Conference-page/)
- 
+
+
+## Getting Started
+
+- Clone the repo to your local machine.
+- Open the index.html file on your browser and use.
+
 
 ## Authors
 
