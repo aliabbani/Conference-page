@@ -38,6 +38,7 @@ const speakers = [
   },
 ];
 
+// eslint-disable-next-line no-plusplus
 for (let i = 0; i < speakers.length; i++) {
   const cardsContainer = document.createElement('div');
   const container = document.createElement('div');
