@@ -4,7 +4,7 @@ Project: HTML/CSS & JavaScript capstone project - Conference page.
 This Project is based on an online website for a conference. 
 A responsive design
  
-![screenshot](https://user-images.githubusercontent.com/60292761/124898984-59630380-dfe8-11eb-83e9-7fdc3b138d38.PNG)
+![screenshot](https://github.com/aliabbani/Conference-page/blob/mobile-first/images/readme.png)
  
  
 ## Built With
