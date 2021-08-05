@@ -10,12 +10,12 @@ const conferenceMenu = document.querySelector('.conference-menu');
 const hideMenu = () => {
   const mobileMenu = document.querySelector('.mobile-menu');
   mobileMenu.style.display = 'none';
-}
+};
 const showMenu = (e) => {
   e.preventDefault();
   const mobileMenu = document.querySelector('.mobile-menu');
   mobileMenu.style.display = 'flex';
-}
+};
 
 menu.addEventListener('click', showMenu);
 closeItem.addEventListener('click', hideMenu);
