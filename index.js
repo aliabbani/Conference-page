@@ -7,11 +7,11 @@ const partnersMenu = document.querySelector('.partners-menu');
 const contactMenu = document.querySelector('.contact-menu');
 const conferenceMenu = document.querySelector('.conference-menu');
 
-function hideMenu() {
+const hideMenu = () => {
   const mobileMenu = document.querySelector('.mobile-menu');
   mobileMenu.style.display = 'none';
 }
-function showMenu(e) {
+const showMenu = (e) => {
   e.preventDefault();
   const mobileMenu = document.querySelector('.mobile-menu');
   mobileMenu.style.display = 'flex';
