@@ -43,7 +43,7 @@ Give a ⭐️ if you like this project!
  
 ## Acknowledgments
  
-- Hat tip to anyone whose code was used
+- This design is similar to the one created by  Cindy Shin. [original Link](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 - Inspiration
 - etc
  
@@ -51,4 +51,3 @@ Give a ⭐️ if you like this project!
  
 This project is [MIT](lic.url) licensed.
 =======
- 

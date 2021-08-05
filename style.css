@@ -71,7 +71,6 @@ body {
 .header-content h1 {
   color: #ec5242;
   font-family: 'COCOGOOSE', sans-serif;
-  -webkit-background-clip:  url(images/pastactivity1.png);
 }
 
 .header-paragraph {
@@ -482,7 +481,7 @@ body {
   }
 
   .header-content {
-    padding: 12vh 20vw 12vh 15vw;
+    padding: 12vh 40vw 12vh 7vw;
   }
 
   .header-content small {
@@ -619,8 +618,8 @@ body {
     padding: 15vh 20vw;
   }
 
-  .header-content-about small {
-    font-size: 30px;
+  #header-content-about-1 {
+    display: none;
   }
 
   .header-content-about h1 {
