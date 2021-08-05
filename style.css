@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Lato', sans-serif;
   color: #272a31;
@@ -61,9 +62,10 @@ body {
   padding: 1vh 4vw 9vh 4vw;
 }
 
-.header-content p {
+.header-content small {
   color: #ec5242;
   font-weight: 400;
+  font-size: 1.3rem;
 }
 
 .header-content h1 {
@@ -297,7 +299,7 @@ body {
   padding: 3vh 3vw;
 }
 
-.header-content-about p {
+.header-content-about small {
   color: #ec5242;
   font-size: 20px;
   font-weight: bold;
@@ -483,7 +485,7 @@ body {
     padding: 12vh 20vw 12vh 15vw;
   }
 
-  .header-content p {
+  .header-content small {
     font-size: 35px;
     line-height: 22px;
   }
@@ -617,7 +619,7 @@ body {
     padding: 15vh 20vw;
   }
 
-  .header-content-about p {
+  .header-content-about small {
     font-size: 30px;
   }
 
